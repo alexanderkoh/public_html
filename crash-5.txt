@@ -1,0 +1,73 @@
+date/time         : 2021-08-05, 11:15:45, 483ms
+computer name     : DESKTOP-D440KJ5
+user name         : samee
+registered owner  : sameer_ahmad324@hotmail.com
+operating system  : Windows NT New x64 build 9200
+system language   : English
+system up time    : 1 day 2 hours
+program up time   : 5 seconds
+processors        : 12x Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+physical memory   : 2340/12148 MB (free/total)
+free disk space   : (C:) 40.41 GB
+display mode      : 1536x864, 32 bit
+process id        : $3d98
+allocated memory  : 22.86 MB
+command line      : "C:\xampp\sendmail\sendmail.exe" -t
+executable        : sendmail.exe
+exec. date/time   : 2012-04-16 22:30
+compiled with     : Delphi 2006/07
+madExcept version : 3.0l
+callstack crc     : $1a7aa062, $1b98bdc2, $1b98bdc2
+exception number  : 1
+exception class   : Exception
+exception message : No valid recipients were found.
+
+main thread ($44b0):
+004b6415 +1561 sendmail.exe sendmail 860 +378 initialization
+772cfa27 +0017 KERNEL32.DLL                   BaseThreadInitThunk
+
+thread $110c:
+772cfa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $51e0:
+772cfa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $3a88:
+772cfa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+stack dump:
+0019fda8  1a 64 4b 00 de fa ed 0e - 01 00 00 00 07 00 00 00  .dK.............
+0019fdb8  bc fd 19 00 1a 64 4b 00 - 90 50 50 02 01 00 00 00  .....dK..PP.....
+0019fdc8  ff ff ff ff 34 a5 45 00 - 70 ff 19 00 d8 fd 19 00  ....4.E.p.......
+0019fdd8  e4 fd 19 00 c8 4b 40 00 - 70 ff 19 00 f0 fd 19 00  .....K@.p.......
+0019fde8  c8 4b 40 00 70 ff 19 00 - fc fd 19 00 5f 4d 40 00  .K@.p......._M@.
+0019fdf8  70 ff 19 00 64 ff 19 00 - c8 4b 40 00 70 ff 19 00  p...d....K@.p...
+0019fe08  b4 4e 4b 00 b4 4e 4b 00 - 00 90 3e 00 00 00 00 00  .NK..NK...>.....
+0019fe18  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fe28  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fe38  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fe48  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fe58  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fe68  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fe78  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fe88  00 00 00 00 fa 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fe98  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fea8  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019feb8  fa 00 26 02 00 00 00 00 - 00 00 00 00 00 00 00 00  ..&.............
+0019fec8  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fed8  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+
+disassembling:
+[...]
+004b6402       jnz     loc_4b641a
+004b6404 860   mov     ecx, $4b6d14           ; 'No valid recipients were found'
+004b6409       mov     dl, 1
+004b640b       mov     eax, [$4085b0]
+004b6410       call    -$a8a81 ($40d994)      ; SysUtils.Exception.Create
+004b6415     > call    -$b172e ($404cec)      ; System.@RaiseExcept
+004b641a 864   push    0
+004b641c       push    0
+004b641e       mov     word ptr [ebp-$e4], $162
+004b6427       lea     ecx, [ebp-$e4]
+004b642d       mov     edx, $4b6d3c           ; 'DATA'
+[...]
